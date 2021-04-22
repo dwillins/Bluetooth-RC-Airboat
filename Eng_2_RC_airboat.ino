@@ -66,6 +66,5 @@ void loop() {
 void steer(int degrees) {
   if (degrees < 100){
     rudder.write((degrees-6)/1.5);
-    Serial.println((degrees-6)/1.5);
   }
 }
